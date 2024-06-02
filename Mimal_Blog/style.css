@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Spectral:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body {
+    background-color: #FAFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 1rem;
+}
+
+.container {
+    width: 25rem;
+    height: auto;
+    background: #ffff;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 15rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+}
+
+
+.category {
+    font-size: 0.625rem;
+    padding: .3rem .8rem;
+    border-radius: .5rem;
+    background: #E6D6FC;
+    font-weight: 500;
+    color: #883AE1;
+    cursor: pointer;
+}
+
+.blog-title {
+    padding: 1rem 0;
+    font-size: 1.125rem;
+    color: #20293A;
+}
+
+.description {
+    padding: .35rem 0;
+    color: #6C727F;
+    font-size: 0.875rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #E5EAF0;
+    margin: 1rem 0;
+}
+
+.footer {
+    padding: .4rem 0;
+    color: #6C727F;
+    font-size: 0.75rem;
+}
